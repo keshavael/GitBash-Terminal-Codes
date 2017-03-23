@@ -1,0 +1,27 @@
+## All commands you need to know to work with Command Line Interface CLI##
+$ pwd 	# shows the current directory path
+$ cd	# change directory
+$ cd ..	# change directory one level up 
+$ clear	# clear the command line interface
+$ ls 	# list all the files and folders on the current directory 
+$ ls –a 	# list all the hidden and unhidden files and folders on the current directory 
+$ mkdir	# make a new folder
+$ touch	# make a new empty file 
+$ cp	# copy a file 
+$ cp –r	# copy entire folder 
+$ rm	# remove a file 	
+$ rm -r	# remove entire folder 	
+$ mv 	# move the file between the folders
+$ date	# shows the date 
+$ echo	# print whatever you type
+$ exit 	#To close Command Line Interface 
+$ git config –global user.name “Your user name” 	#make a git account
+$ git config –global user.email your_emai@example.com	#make a git account
+$ git config –list 
+$ git init 	# make a repository on your local computer 
+$ git add  . 	# add all new files from directory 
+$ git add  –u 	#updates tracking for files with name changes or have been deleted
+$ git add  –A 	#add and update everything 
+$ git commit –m “what you did” 		#when you have changes you want to save on your local repo 
+$ git remote add origin “URL for your git hub” 	#sync your local repo to github comm
+$ git push 	#add stuff from your local repo to Github 
